@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.PostActivity">
+
+    <EditText
+        android:id="@+id/who_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Кто?" />
+
+    <EditText
+        android:id="@+id/where_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Где?" />
+
+    <EditText
+        android:id="@+id/doing_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Что делал?" />
+
+    <EditText
+        android:id="@+id/what_for_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Зачем?" />
+
+    <EditText
+        android:id="@+id/end_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Чем все закончилось?" />
+
+    <Button
+        android:id="@+id/GoPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        android:onClick="GoPost"/>
+
+    <Button
+        android:id="@+id/GoToTableRoomActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вернуться к списку комнат"
+        android:onClick="GoTableRoomActivity"/>
+
+    <Button
+        android:id="@+id/GoToReadActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Прочитать еще"
+        android:onClick="GoReadActivity"/>
+
+</LinearLayout>

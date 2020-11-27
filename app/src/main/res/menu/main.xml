@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/Refresh"
+        android:icon="@drawable/restart"
+        android:title="Обновить"
+        app:showAsAction="always" />
+    <item
+        android:title="Создать комнату"
+        android:id="@+id/CreateRoomItem"
+
+        />
+    <item
+        android:title="Правила игры"
+        android:id="@+id/GameText"
+        />
+    <item
+        android:title="О проекте"
+        android:id="@+id/info"
+        />
+</menu>

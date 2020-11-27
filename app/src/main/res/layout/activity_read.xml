@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ReadActivity">
+
+    <TextView
+        android:id="@+id/who"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+    <TextView
+        android:id="@+id/where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/doing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/what_for"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/GoToPostActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Записать"
+        android:onClick="GoToPostActivity"
+        />
+
+    <Button
+        android:id="@+id/ReadMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Прочитать еще"
+        android:onClick="ReadMore"
+        />
+
+    <Button
+        android:id="@+id/GoToTableRoomActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вернуться к списку комнат"
+        android:onClick="GoTableRoomActivity"
+        />
+</LinearLayout>

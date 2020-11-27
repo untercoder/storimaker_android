@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RoomActivity">
+
+
+    <TextView
+        android:id="@+id/RoomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/GoToTableRoomActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Читать"
+        android:onClick="GoReadActivity"
+        />
+
+    <Button
+        android:id="@+id/GoToReadActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вернуться к списку комнат"
+        android:onClick="GoTableRoomActivity"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Записать"
+        android:onClick="GoToPostActivity"
+        />
+
+
+
+
+</LinearLayout>
